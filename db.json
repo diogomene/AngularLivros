@@ -1,0 +1,15 @@
+{
+    "livros":[
+    {"id":1,
+    "titulo":"O conde de monte cristo",
+    "autor":"Alexandre Dumas",
+    "imageUrl":"https://4.bp.blogspot.com/_EM574g6qVzk/TApd2tsNBsI/AAAAAAAAADg/N_83w3aF8dY/s1600/O+Conde+de+Monte+Cristo+1.jpg"
+    ,"score":2},
+    {"id":2,
+    "titulo":"Frankenstein",
+    "autor":"Mary Shelley",
+    "imageUrl":"https://d28hgpri8am2if.cloudfront.net/book_images/cvr9780743487580_9780743487580_hr.jpg",
+    "score":5
+    }
+    ]
+}

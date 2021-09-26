@@ -1,0 +1,17 @@
+<div class="book-cont">
+    <div class="book-cover">
+        <img class="book-cover-img" src="{{livro.imageUrl}}" alt="" draggable="false">
+    </div>
+    <div class="book-info-cont">
+        <div class="book-info">
+            <h1 class="book-title">{{livro.titulo}}</h1>
+            <p class="book-autor">{{livro.autor}}</p>
+            <div class="book-score">
+                <span class="score">{{livro.score}} <fa-icon [icon]="faStar" [ngStyle]="{'color': (livro.score<3) ? 'red' : '#e9e504'}"></fa-icon></span>
+            </div>
+        </div>
+        <div class="book-edit">
+            <button>Editar</button>
+        </div>
+    </div>
+</div>
